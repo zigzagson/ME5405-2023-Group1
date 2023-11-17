@@ -1,9 +1,9 @@
 %% load file
-path_train = 'G:\zhuomian\5405\assignment\p_dataset_26';
+path_train = '..\p_dataset_26';
 imds_train = imageDatastore(path_train,'IncludeSubfolders',true,'FileExtensions','.png',...
                             'LabelSource','foldernames');
 
-path_train = 'G:\zhuomian\5405\assignment\ME5405_Group1\output (binary)';
+path_train = '.\output (binary)';
 imds_test = imageDatastore(path_train,'IncludeSubfolders',true,'FileExtensions','.jpg',...
                             'LabelSource','foldernames');
 
